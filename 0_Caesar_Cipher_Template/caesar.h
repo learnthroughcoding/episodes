@@ -1,13 +1,15 @@
 #ifndef CAESAR_H
 #define CAESAR_H
 
+
+
 /**
-* Insert your function declarations here!
+*   Insert your function declarations here!
 */
 
 
 /**
-* Helper functions, Ignore these functions
+*   Helper functions, Ignore these functions
 */
 
 /**

@@ -1,12 +1,6 @@
 LEARN THROUGH CODING
 EPISODE 0: CAESAR CIPHER (ENGLISH ALPHABET)
 
-DISCLAIMER
-All the code presented here is freely available to you to do with as you please.
-However, the implementations provided are intended for educational purposes and
-are likely to not be efficient or safe for actual use. As a result, you
-should not use this code for actual purposes.
-
 
 INTRODUCTION
 The Caesar Cipher is one of the simplest ciphers known. It is named after Julius
