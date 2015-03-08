@@ -3,8 +3,10 @@ EPISODE 0: CAESAR CIPHER (ENGLISH ALPHABET)
 
 
 INTRODUCTION
-The Caesar Cipher is one of the simplest ciphers known. It is named after Julius
-Caesar who used it protect messages during military operations.
+The Caesar Cipher is one of the simplest ciphers in existence. It is named after
+Julius Caesar who used it protect messages during military operations. People
+were often illiterate, so a simple cipher like this one was all that was needed
+to protect messages.
 
 
 HOW IT WORKS
@@ -54,14 +56,11 @@ Finally, we convert back from the index to English letters.
 	{22, 19, 0, 0, 3} -> {W, T, A, A, D}
 
 
-So our final enciphered text is "WTAAE". To decrypt the message we would perform
+So our final enciphered text is "WTAAD". To decrypt the message we would perform
 the same steps except we would subtract the offset instead of adding the offset.
 
 
 IMPLEMENTATION
-In our code we will implement the Caesar Cipher for the English alphabet. In the
-future, we will generalize this idea to let us encipher computer data. However,
-for now we will need a few restrictions.
-
 The cipher will take in a string of text which contains only capital English
-letters and spaces. All spaced will be ignored.
+letters and spaces. All spaced will be ignored. If we have a character which
+is not a capital English letter or a space, we will throw an error.
